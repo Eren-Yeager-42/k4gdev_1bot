@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, fil
 import random
 import os
 
-TOKEN = os.getenv(8670896395:AAGQM-LstfFMpqkv59Jtdu-LfNg7QfnG4SU)
+TOKEN = os.getenv("TOKEN")
 
 # ✅ Start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
