@@ -1,8 +1,9 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, filters, ContextTypes
 import random
+import os
 
-TOKEN = "8670896395:AAGQM-LstfFMpqkv59Jtdu-LfNg7QfnG4SU"
+TOKEN = os.getenv("8670896395:AAGQM-LstfFMpqkv59Jtdu-LfNg7QfnG4SU")
 
 # ✅ Start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
